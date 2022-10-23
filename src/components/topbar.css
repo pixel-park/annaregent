@@ -1,0 +1,28 @@
+.topbar__wrapper {
+  position: relative;
+  width: 100vw;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar__container {
+  width: 90%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+.topbar__block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.socials a {
+  opacity: 0.8;
+  transition: 800ms;
+}
+.socials a:hover {
+  opacity: 1;
+  transition: 800ms;
+}
